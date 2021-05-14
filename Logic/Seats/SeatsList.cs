@@ -41,17 +41,21 @@ namespace TheatreApi.Logic.Reservations
                 var auditorium = await _dataContext.Auditoriums.Where(x => x.Name == request.AuditoriumName).SingleOrDefaultAsync();
                 if(auditorium != null) Console.WriteLine(auditorium.Name);
                 if(auditorium == null) Console.WriteLine("nu");
+                bool free = true;
                
                 var seats = await _dataContext.Seats.Where(x => x.AuditoriumId == auditorium.AuditoriumId).ToListAsync();
                 Console.WriteLine(seats.Count);
 
                 foreach(var seat in seats){
+                    if(seat.ReservationId != null) free = false; 
                     seatsList.Add(
                         new SeatModel{
                             Row = seat.Row,
-                            Column = seat.Column
+                            Column = seat.Column,
+                            Free = free
                         }
                     );
+                    free = true;
                 }
                 return seatsList;
                 

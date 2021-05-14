@@ -4,6 +4,7 @@ namespace TheatreApi.Logic.Reservations
     {
         public int Row {get; set;}
         public int Column {get; set;}
+        public bool Free {get; set;}
 
     }
 }

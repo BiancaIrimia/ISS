@@ -2003,11 +2003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Facultate\\anul3\\Sem2\\ISS\\TheatreApi\\TheatreApi.csproj",
+      "projectUniqueName": "E:\\Facultate\\anul3\\Sem2\\ISS\\TheatreApplication\\Backend\\TheatreApi.csproj",
       "projectName": "TheatreApi",
-      "projectPath": "e:\\Facultate\\anul3\\Sem2\\ISS\\TheatreApi\\TheatreApi.csproj",
+      "projectPath": "E:\\Facultate\\anul3\\Sem2\\ISS\\TheatreApplication\\Backend\\TheatreApi.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "e:\\Facultate\\anul3\\Sem2\\ISS\\TheatreApi\\obj\\",
+      "outputPath": "E:\\Facultate\\anul3\\Sem2\\ISS\\TheatreApplication\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

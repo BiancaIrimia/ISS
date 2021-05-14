@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fqKMibiwsJumricaGI3ilq4e+d1HkAPqCQugEaJGq/bzOfxj9rKgMALo7SXSPUgHDsO/ScwSOieT4hYJGQPXoA==",
+  "dgSpecHash": "/zzR4d8fP7BDV+Rjo7MyANevHuTctAWnjDYwh7XLf21gjF93ZYPAaLzeyNIKCdEyDKH0VYgTtsabYoBB0OcCsQ==",
   "success": true,
-  "projectFilePath": "E:\\Facultate\\anul3\\Sem2\\ISS\\TheatreApi\\TheatreApi.csproj",
+  "projectFilePath": "E:\\Facultate\\anul3\\Sem2\\ISS\\TheatreApplication\\Backend\\TheatreApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owner\\.nuget\\packages\\fluentvalidation\\10.0.0\\fluentvalidation.10.0.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.0\\fluentvalidation.aspnetcore.10.0.0.nupkg.sha512",

@@ -1,13 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-namespace TheatreApi.Logic.Reservations
+namespace Backend.Logic.Reservations.Models
 {
-    public class ReservationModel
+    public class MyReservationModel
     {
-       
-        public string Username {get; set;}
-        public string Mail {get; set;}
         
         public string Title {get; set;}
         public DateTime DateTime {get; set;}

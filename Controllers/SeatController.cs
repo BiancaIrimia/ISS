@@ -1,5 +1,3 @@
-
-
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using MediatR;
@@ -19,8 +17,7 @@ namespace TheatreApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<List<SeatModel>>> Reservations(SeatsList.Query query){
-            //return await _mediator.Send(new SeatsList.Query());
+        public async Task<ActionResult<List<SeatModel>>> Seats(SeatsList.Query query){
             return await _mediator.Send(query);
         }
     }

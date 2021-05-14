@@ -78,7 +78,6 @@ namespace TheatreApi.Logic.Reservations
                    var seat = await _dataContext.Seats.Where(x => (x.Row == request.Row[index] && x.Column == request.Column[index] && x.Auditorium.AuditoriumId == play.AuditoriumId)).SingleOrDefaultAsync();
 
                     Console.WriteLine(seat.SeatId);
-                //     (x.Row == request.Row[index] && x.Column == request.Column[index] &&
                    
                        Seat newSeat = new Seat{
                         SeatId = seat.SeatId,
